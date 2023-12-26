@@ -3,5 +3,19 @@
 
     .wrapper {
         width: -webkit-fill-available;
+
+        .vl {
+            border-left: 6px solid green;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            margin: 10px;
+
+            transition: border-left 0.2s ease-in-out;
+        }
+        .vl:hover {
+            border-left: 8px solid #fff;
+            cursor: pointer;
+        }
     }
 }

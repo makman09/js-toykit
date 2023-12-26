@@ -7,8 +7,12 @@ $sidebar-link-hover-bg-color: #eee;
 .Sidebar {
     background: #000;
     color: #fff;
-    width: 250px;
+    flex: 0 0 $sidebar-width;
     height: -webkit-fill-available;
+
+    transition:
+        flex 0.2s ease-in-out,
+        width 0.2s ease-in-out;
 
     h2 {
         padding: 10px;
