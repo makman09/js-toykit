@@ -27,6 +27,7 @@ const Sidebar: FC<SidebarProps> = ({ open = false }) => {
         <li>
           <Link to="/">Home</Link>
           <Link to="/example">Example</Link>
+          <Link to="/article">Article</Link>
         </li>
         {/* Add more links as needed */}
       </ul>
