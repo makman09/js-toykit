@@ -9,10 +9,12 @@ $sidebar-link-hover-bg-color: #eee;
     color: #fff;
     flex: 0 0 $sidebar-width;
     height: -webkit-fill-available;
+    visibility: visible;
 
     transition:
         flex 0.2s ease-in-out,
         width 0.2s ease-in-out;
+        visibility: 0.4 ease-in-out;
 
     h2 {
         padding: 10px;

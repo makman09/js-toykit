@@ -23,8 +23,10 @@ const Article: FC<ArticleProps> = ({ title="", content="", author="", date="" })
   })
   
   return (<div className={styles.Article} data-testid="Article">
-    <h1>Title: {title}</h1>
-    <Markdown>{markdown}</Markdown>
+    <div className="max-w-prose mx-auto">
+      <h1>Title: {title}</h1>
+      <Markdown>{markdown}</Markdown>
+    </div>
   </div>)
 };
 export default Article;

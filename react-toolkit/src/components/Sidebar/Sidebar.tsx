@@ -20,7 +20,7 @@ const Sidebar: FC<SidebarProps> = ({ open = false }) => {
     <div
       className={styles.Sidebar}
       data-testid="Sidebar"
-      style={open ? { flex: "0 0 250px", width: "250px", } : { flex: "0", width: "0px" }}
+      style={open ? { flex: "0 0 250px", width: "250px", visibility: "visible"} : { flex: "0", width: "0px", visibility: "hidden" }}
     >
       <h2>React Toolkit</h2>
       <ul>
